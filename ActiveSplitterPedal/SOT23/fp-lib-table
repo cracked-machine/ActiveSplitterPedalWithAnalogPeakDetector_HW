@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name NeutrikNRJ)(type KiCad)(uri ${KIPRJMOD}/../../../KicadLibrary/footprint/CONNECTORS/AUDIO/NeutrikNRJ.pretty)(options "")(descr ""))
+  (lib (name Hammond1590)(type KiCad)(uri /Users/chrissutton/Projects/HardwareProjects/KicadLibrary/footprint/ENCLOSURES/HAMMOND/Hammond1590.pretty)(options "")(descr ""))
+)
