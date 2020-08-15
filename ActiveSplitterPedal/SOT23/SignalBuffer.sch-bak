@@ -14,79 +14,34 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	2600 3000 3250 3000
-Wire Wire Line
-	3250 3200 3075 3200
-Wire Wire Line
-	3075 3200 3075 4450
-Wire Wire Line
-	3075 4450 4050 4450
-Wire Wire Line
-	4050 4450 4050 3100
-Wire Wire Line
-	4050 3100 3850 3100
-Wire Wire Line
-	4050 3100 6550 3100
-Connection ~ 4050 3100
+	1900 3650 2200 3650
 Wire Wire Line
 	6550 3350 6100 3350
 Wire Wire Line
 	7350 3100 7850 3100
 Text HLabel 6100 3350 0    50   Input ~ 0
 SW
-Text HLabel 2600 3000 0    50   Input ~ 0
+Text HLabel 1900 3650 0    50   Input ~ 0
 IN
 Text HLabel 7850 3100 2    50   Input ~ 0
 OUT
 $Comp
-L Amplifier_Operational:OPA842xDBV U1
-U 1 1 5F35E576
-P 3550 3100
-AR Path="/5F350192/5F35E576" Ref="U1"  Part="1" 
-AR Path="/5F3658F9/5F35E576" Ref="U2"  Part="1" 
-AR Path="/5F365961/5F35E576" Ref="U3"  Part="1" 
-AR Path="/5F365B82/5F35E576" Ref="U4"  Part="1" 
-F 0 "U1" H 3550 3650 50  0000 L CNN
-F 1 "ADA4004-1" H 3500 3450 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3450 2900 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa842.pdf" H 3550 3300 50  0001 C CNN
-	1    3550 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3450 3400 3450 3800
-$Comp
-L power:-5V #PWR017
-U 1 1 5F361BF5
-P 3450 3800
-AR Path="/5F350192/5F361BF5" Ref="#PWR017"  Part="1" 
-AR Path="/5F3658F9/5F361BF5" Ref="#PWR019"  Part="1" 
-AR Path="/5F365961/5F361BF5" Ref="#PWR021"  Part="1" 
-AR Path="/5F365B82/5F361BF5" Ref="#PWR023"  Part="1" 
-F 0 "#PWR017" H 3450 3900 50  0001 C CNN
-F 1 "-5V" H 3465 3973 50  0000 C CNN
-F 2 "" H 3450 3800 50  0001 C CNN
-F 3 "" H 3450 3800 50  0001 C CNN
-	1    3450 3800
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:+5V #PWR016
 U 1 1 5F361F40
-P 3450 2250
+P 3450 2400
 AR Path="/5F350192/5F361F40" Ref="#PWR016"  Part="1" 
 AR Path="/5F3658F9/5F361F40" Ref="#PWR018"  Part="1" 
 AR Path="/5F365961/5F361F40" Ref="#PWR020"  Part="1" 
 AR Path="/5F365B82/5F361F40" Ref="#PWR022"  Part="1" 
-F 0 "#PWR016" H 3450 2100 50  0001 C CNN
-F 1 "+5V" H 3465 2423 50  0000 C CNN
-F 2 "" H 3450 2250 50  0001 C CNN
-F 3 "" H 3450 2250 50  0001 C CNN
-	1    3450 2250
+F 0 "#PWR016" H 3450 2250 50  0001 C CNN
+F 1 "+5V" H 3600 2450 50  0000 C CNN
+F 2 "" H 3450 2400 50  0001 C CNN
+F 3 "" H 3450 2400 50  0001 C CNN
+	1    3450 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 2250 3450 2800
+	3450 2400 3450 2800
 $Comp
 L power:+5V #PWR0101
 U 1 1 5F3E136B
@@ -251,4 +206,148 @@ F 3 "" H 4850 6950 50  0001 C CNN
 	1    4850 6950
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:-5V #PWR017
+U 1 1 5F361BF5
+P 3450 3600
+AR Path="/5F350192/5F361BF5" Ref="#PWR017"  Part="1" 
+AR Path="/5F3658F9/5F361BF5" Ref="#PWR019"  Part="1" 
+AR Path="/5F365961/5F361BF5" Ref="#PWR021"  Part="1" 
+AR Path="/5F365B82/5F361BF5" Ref="#PWR023"  Part="1" 
+F 0 "#PWR017" H 3450 3700 50  0001 C CNN
+F 1 "-5V" H 3300 3650 50  0000 C CNN
+F 2 "" H 3450 3600 50  0001 C CNN
+F 3 "" H 3450 3600 50  0001 C CNN
+	1    3450 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 3400 3450 3600
+Wire Wire Line
+	4200 3100 6550 3100
+Wire Wire Line
+	4200 3100 3850 3100
+Connection ~ 4200 3100
+Wire Wire Line
+	4200 4050 4200 3100
+Wire Wire Line
+	3000 4050 3050 4050
+Wire Wire Line
+	3000 3200 3000 3650
+Wire Wire Line
+	3250 3200 3000 3200
+$Comp
+L Amplifier_Operational:OPA842xDBV U1
+U 1 1 5F35E576
+P 3550 3100
+AR Path="/5F350192/5F35E576" Ref="U1"  Part="1" 
+AR Path="/5F3658F9/5F35E576" Ref="U2"  Part="1" 
+AR Path="/5F365961/5F35E576" Ref="U3"  Part="1" 
+AR Path="/5F365B82/5F35E576" Ref="U4"  Part="1" 
+F 0 "U1" H 3100 3500 50  0000 L CNN
+F 1 "OPA842" H 3050 3400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3450 2900 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa842.pdf" H 3550 3300 50  0001 C CNN
+	1    3550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5F374B42
+P 2350 3650
+AR Path="/5F350192/5F374B42" Ref="R15"  Part="1" 
+AR Path="/5F365B82/5F374B42" Ref="R9"  Part="1" 
+AR Path="/5F365961/5F374B42" Ref="R11"  Part="1" 
+AR Path="/5F3658F9/5F374B42" Ref="R13"  Part="1" 
+F 0 "R15" V 2450 3650 50  0000 C CNN
+F 1 "2K2" V 2550 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2280 3650 50  0001 C CNN
+F 3 "~" H 2350 3650 50  0001 C CNN
+	1    2350 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 3650 3000 3650
+Wire Wire Line
+	3800 4050 3850 4050
+Connection ~ 3000 3650
+Wire Wire Line
+	3000 3650 3000 4050
+Wire Wire Line
+	3250 3000 2600 3000
+Wire Wire Line
+	2600 3000 2600 3200
+$Comp
+L power:GNDS #PWR047
+U 1 1 5F377EED
+P 2600 3200
+AR Path="/5F350192/5F377EED" Ref="#PWR047"  Part="1" 
+AR Path="/5F365B82/5F377EED" Ref="#PWR044"  Part="1" 
+AR Path="/5F365961/5F377EED" Ref="#PWR045"  Part="1" 
+AR Path="/5F3658F9/5F377EED" Ref="#PWR046"  Part="1" 
+F 0 "#PWR047" H 2600 2950 50  0001 C CNN
+F 1 "GNDS" H 2605 3027 50  0000 C CNN
+F 2 "" H 2600 3200 50  0001 C CNN
+F 3 "" H 2600 3200 50  0001 C CNN
+	1    2600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 5F37ADE4
+P 3650 4050
+AR Path="/5F350192/5F37ADE4" Ref="RV1"  Part="1" 
+AR Path="/5F365B82/5F37ADE4" Ref="RV4"  Part="1" 
+AR Path="/5F365961/5F37ADE4" Ref="RV3"  Part="1" 
+AR Path="/5F3658F9/5F37ADE4" Ref="RV2"  Part="1" 
+F 0 "RV1" V 4000 4150 50  0000 C CNN
+F 1 "5K" V 4100 4150 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical" H 3650 4050 50  0001 C CNN
+F 3 "https://docs.rs-online.com/3ea0/0900766b80f4c570.pdf" H 3650 4050 50  0001 C CNN
+	1    3650 4050
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3650 4200 3650 4300
+Wire Wire Line
+	3650 4300 3450 4300
+Wire Wire Line
+	3450 4300 3450 4050
+Connection ~ 3450 4050
+Wire Wire Line
+	3450 4050 3500 4050
+$Comp
+L Device:R R19
+U 1 1 5F37F653
+P 3200 4050
+AR Path="/5F350192/5F37F653" Ref="R19"  Part="1" 
+AR Path="/5F365B82/5F37F653" Ref="R10"  Part="1" 
+AR Path="/5F365961/5F37F653" Ref="R14"  Part="1" 
+AR Path="/5F3658F9/5F37F653" Ref="R17"  Part="1" 
+F 0 "R19" V 3300 4050 50  0000 C CNN
+F 1 "100R" V 3400 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3130 4050 50  0001 C CNN
+F 3 "~" H 3200 4050 50  0001 C CNN
+	1    3200 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 4050 3450 4050
+$Comp
+L Device:R R20
+U 1 1 5F37FC84
+P 4000 4050
+AR Path="/5F350192/5F37FC84" Ref="R20"  Part="1" 
+AR Path="/5F365B82/5F37FC84" Ref="R12"  Part="1" 
+AR Path="/5F365961/5F37FC84" Ref="R16"  Part="1" 
+AR Path="/5F3658F9/5F37FC84" Ref="R18"  Part="1" 
+F 0 "R20" V 4100 4050 50  0000 C CNN
+F 1 "100R" V 4200 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3930 4050 50  0001 C CNN
+F 3 "~" H 4000 4050 50  0001 C CNN
+	1    4000 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 4050 4200 4050
 $EndSCHEMATC
