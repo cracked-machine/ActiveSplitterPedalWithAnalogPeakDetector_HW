@@ -27,7 +27,7 @@ U 1 1 5E6728BA
 P 5025 1675
 F 0 "D5" H 5025 1459 50  0000 C CNN
 F 1 "B0520LW-RH" H 5025 1550 50  0000 C CNN
-F 2 "Diode_SMD:D_SMB_Handsoldering" H 5025 1675 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 5025 1675 50  0001 C CNN
 F 3 "https://www.taiwansemi.com/products/datasheet/B0520LW%20SERIES_I1601.pdf" H 5025 1675 50  0001 C CNN
 	1    5025 1675
 	-1   0    0    1   

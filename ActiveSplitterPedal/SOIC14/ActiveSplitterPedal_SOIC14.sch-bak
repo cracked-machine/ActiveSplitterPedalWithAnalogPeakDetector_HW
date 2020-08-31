@@ -14,132 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MonoJack2Switch:MonoJack2Switch J5
-U 1 1 5F3395F3
-P 1275 1450
-F 0 "J5" H 1370 1825 50  0000 C CNN
-F 1 "MonoJack2Switch" H 1370 1734 50  0000 C CNN
-F 2 "NeutrikNRJ:NRJxHx" H 1275 1500 50  0001 C CNN
-F 3 "https://www.neutrik.com/en/product/nrj6hm-1-pre" H 1275 1500 50  0001 C CNN
-	1    1275 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1725 1300 2925 1300
-$Comp
-L Device:R R6
-U 1 1 5F33DCDF
-P 2925 1725
-F 0 "R6" H 2995 1771 50  0000 L CNN
-F 1 "2.2M" H 2995 1680 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2855 1725 50  0001 C CNN
-F 3 "~" H 2925 1725 50  0001 C CNN
-	1    2925 1725
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2925 1575 2925 1300
-Connection ~ 2925 1300
-$Comp
-L power:GNDS #PWR05
-U 1 1 5F33F57E
-P 2925 2075
-F 0 "#PWR05" H 2925 1825 50  0001 C CNN
-F 1 "GNDS" H 2930 1902 50  0000 C CNN
-F 2 "" H 2925 2075 50  0001 C CNN
-F 3 "" H 2925 2075 50  0001 C CNN
-	1    2925 2075
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2925 2075 2925 1875
-$Comp
-L Device:R R7
-U 1 1 5F34026A
-P 3825 1725
-F 0 "R7" H 3895 1771 50  0000 L CNN
-F 1 "2.2M" H 3895 1680 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3755 1725 50  0001 C CNN
-F 3 "~" H 3825 1725 50  0001 C CNN
-	1    3825 1725
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3825 1575 3825 1300
-$Comp
-L power:GNDS #PWR09
-U 1 1 5F340271
-P 3825 2075
-F 0 "#PWR09" H 3825 1825 50  0001 C CNN
-F 1 "GNDS" H 3830 1902 50  0000 C CNN
-F 2 "" H 3825 2075 50  0001 C CNN
-F 3 "" H 3825 2075 50  0001 C CNN
-	1    3825 2075
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3825 2075 3825 1875
-Wire Wire Line
-	2925 1300 3225 1300
-$Comp
-L Device:R R5
-U 1 1 5F3442DD
-P 3375 1300
-F 0 "R5" V 3168 1300 50  0000 C CNN
-F 1 "10K" V 3259 1300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3305 1300 50  0001 C CNN
-F 3 "~" H 3375 1300 50  0001 C CNN
-	1    3375 1300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3525 1300 3825 1300
-Connection ~ 3825 1300
-$Comp
-L MonoJack2Switch:MonoJack2Switch J1
-U 1 1 5F366B64
-P 8950 1600
-F 0 "J1" H 8648 1651 50  0000 R CNN
-F 1 "MonoJack2Switch" H 8648 1560 50  0000 R CNN
-F 2 "NeutrikNRJ:NRJxHx" H 8950 1650 50  0001 C CNN
-F 3 "https://www.neutrik.com/en/product/nrj6hm-1-pre" H 8950 1650 50  0001 C CNN
-	1    8950 1600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L MonoJack2Switch:MonoJack2Switch J2
-U 1 1 5F369E69
-P 8950 2675
-F 0 "J2" H 8648 2726 50  0000 R CNN
-F 1 "MonoJack2Switch" H 8648 2635 50  0000 R CNN
-F 2 "NeutrikNRJ:NRJxHx" H 8950 2725 50  0001 C CNN
-F 3 "https://www.neutrik.com/en/product/nrj6hm-1-pre" H 8950 2725 50  0001 C CNN
-	1    8950 2675
-	-1   0    0    -1  
-$EndComp
-$Comp
-L MonoJack2Switch:MonoJack2Switch J3
-U 1 1 5F36BD50
-P 8950 3725
-F 0 "J3" H 8648 3776 50  0000 R CNN
-F 1 "MonoJack2Switch" H 8648 3685 50  0000 R CNN
-F 2 "NeutrikNRJ:NRJxHx" H 8950 3775 50  0001 C CNN
-F 3 "https://www.neutrik.com/en/product/nrj6hm-1-pre" H 8950 3775 50  0001 C CNN
-	1    8950 3725
-	-1   0    0    -1  
-$EndComp
-$Comp
-L MonoJack2Switch:MonoJack2Switch J4
-U 1 1 5F36CF2A
-P 8950 4775
-F 0 "J4" H 8648 4826 50  0000 R CNN
-F 1 "MonoJack2Switch" H 8648 4735 50  0000 R CNN
-F 2 "NeutrikNRJ:NRJxHx" H 8950 4825 50  0001 C CNN
-F 3 "https://www.neutrik.com/en/product/nrj6hm-1-pre" H 8950 4825 50  0001 C CNN
-	1    8950 4775
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector:Barrel_Jack J6
 U 1 1 5F3909CC
 P 2100 6150
@@ -182,95 +56,98 @@ F 3 "" H 2650 6350 50  0001 C CNN
 	1    2650 6350
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 3100 5800 1450 500 
+U 5F3902BC
+F0 "PowerSupply" 50
+F1 "PosNeg5V_PSU.sch" 50
+F2 "+9V_IN" I L 3100 6050 50 
+F3 "+5V" I R 4550 6075 50 
+$EndSheet
+$Sheet
+S 6350 1150 800  450 
+U 5F3F1F31
+F0 "GainAndPeakDetector1" 50
+F1 "InvGainAndPeakDetector.sch" 50
+F2 "SIGNAL_INPUT" I L 6350 1300 50 
+F3 "SIGNAL_OUTPUT" I R 7150 1450 50 
+$EndSheet
+$Sheet
+S 6350 4325 800  450 
+U 5F519B24
+F0 "GainAndPeakDetector4" 50
+F1 "InvGainAndPeakDetector.sch" 50
+F2 "SIGNAL_INPUT" I L 6350 4475 50 
+F3 "SIGNAL_OUTPUT" I R 7150 4625 50 
+$EndSheet
+$Sheet
+S 6350 3275 800  450 
+U 5F515E89
+F0 "GainAndPeakDetector3" 50
+F1 "InvGainAndPeakDetector.sch" 50
+F2 "SIGNAL_INPUT" I L 6350 3425 50 
+F3 "SIGNAL_OUTPUT" I R 7150 3575 50 
+$EndSheet
+$Sheet
+S 6350 2225 800  450 
+U 5F512144
+F0 "GainAndPeakDetector2" 50
+F1 "InvGainAndPeakDetector.sch" 50
+F2 "SIGNAL_INPUT" I L 6350 2375 50 
+F3 "SIGNAL_OUTPUT" I R 7150 2525 50 
+$EndSheet
 Wire Wire Line
-	1725 1400 2125 1400
+	4775 4475 6350 4475
+Connection ~ 4775 3425
 Wire Wire Line
-	2125 1400 2125 1500
+	4775 3425 4775 4475
 Wire Wire Line
-	1725 1500 2125 1500
-Connection ~ 2125 1500
+	4775 3425 6350 3425
+Connection ~ 4775 2375
 Wire Wire Line
-	2125 1500 2125 1600
+	4775 2375 4775 3425
 Wire Wire Line
-	1725 1600 2125 1600
-Connection ~ 2125 1600
+	4775 1300 6350 1300
+Connection ~ 4775 1300
 Wire Wire Line
-	2125 1600 2125 2075
+	4775 2375 4775 1300
+Wire Wire Line
+	4775 2375 6350 2375
+Wire Wire Line
+	3825 1300 4775 1300
+Wire Wire Line
+	7150 1450 8500 1450
+Wire Wire Line
+	7150 4625 8500 4625
+Wire Wire Line
+	7150 3575 8500 3575
+Wire Wire Line
+	7150 2525 8500 2525
 $Comp
-L power:GNDS #PWR03
-U 1 1 5F3A9844
-P 2125 2075
-F 0 "#PWR03" H 2125 1825 50  0001 C CNN
-F 1 "GNDS" H 2130 1902 50  0000 C CNN
-F 2 "" H 2125 2075 50  0001 C CNN
-F 3 "" H 2125 2075 50  0001 C CNN
-	1    2125 2075
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8500 1550 8100 1550
-Wire Wire Line
-	8100 1550 8100 1650
-Wire Wire Line
-	8500 1650 8100 1650
-Connection ~ 8100 1650
-Wire Wire Line
-	8100 1650 8100 1750
-Wire Wire Line
-	8500 1750 8100 1750
-Connection ~ 8100 1750
-Wire Wire Line
-	8100 1750 8100 1950
-$Comp
-L power:GNDS #PWR012
-U 1 1 5F3AA43F
-P 8100 1950
-F 0 "#PWR012" H 8100 1700 50  0001 C CNN
-F 1 "GNDS" H 8105 1777 50  0000 C CNN
-F 2 "" H 8100 1950 50  0001 C CNN
-F 3 "" H 8100 1950 50  0001 C CNN
-	1    8100 1950
+L power:GNDS #PWR015
+U 1 1 5F3AF94C
+P 8100 5125
+F 0 "#PWR015" H 8100 4875 50  0001 C CNN
+F 1 "GNDS" H 8105 4952 50  0000 C CNN
+F 2 "" H 8100 5125 50  0001 C CNN
+F 3 "" H 8100 5125 50  0001 C CNN
+	1    8100 5125
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 2625 8100 2625
+	8100 4925 8100 5125
+Connection ~ 8100 4925
 Wire Wire Line
-	8100 2625 8100 2725
+	8500 4925 8100 4925
 Wire Wire Line
-	8500 2725 8100 2725
-Connection ~ 8100 2725
+	8100 4825 8100 4925
+Connection ~ 8100 4825
 Wire Wire Line
-	8100 2725 8100 2825
+	8500 4825 8100 4825
 Wire Wire Line
-	8500 2825 8100 2825
-Connection ~ 8100 2825
+	8100 4725 8100 4825
 Wire Wire Line
-	8100 2825 8100 3025
-$Comp
-L power:GNDS #PWR013
-U 1 1 5F3ABE1D
-P 8100 3025
-F 0 "#PWR013" H 8100 2775 50  0001 C CNN
-F 1 "GNDS" H 8105 2852 50  0000 C CNN
-F 2 "" H 8100 3025 50  0001 C CNN
-F 3 "" H 8100 3025 50  0001 C CNN
-	1    8100 3025
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	8500 3675 8100 3675
-Wire Wire Line
-	8100 3675 8100 3775
-Wire Wire Line
-	8500 3775 8100 3775
-Connection ~ 8100 3775
-Wire Wire Line
-	8100 3775 8100 3875
-Wire Wire Line
-	8500 3875 8100 3875
-Connection ~ 8100 3875
-Wire Wire Line
-	8100 3875 8100 4075
+	8500 4725 8100 4725
 $Comp
 L power:GNDS #PWR014
 U 1 1 5F3ADB89
@@ -283,95 +160,218 @@ F 3 "" H 8100 4075 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 4725 8100 4725
+	8100 3875 8100 4075
+Connection ~ 8100 3875
 Wire Wire Line
-	8100 4725 8100 4825
+	8500 3875 8100 3875
 Wire Wire Line
-	8500 4825 8100 4825
-Connection ~ 8100 4825
+	8100 3775 8100 3875
+Connection ~ 8100 3775
 Wire Wire Line
-	8100 4825 8100 4925
+	8500 3775 8100 3775
 Wire Wire Line
-	8500 4925 8100 4925
-Connection ~ 8100 4925
+	8100 3675 8100 3775
 Wire Wire Line
-	8100 4925 8100 5125
+	8500 3675 8100 3675
 $Comp
-L power:GNDS #PWR015
-U 1 1 5F3AF94C
-P 8100 5125
-F 0 "#PWR015" H 8100 4875 50  0001 C CNN
-F 1 "GNDS" H 8105 4952 50  0000 C CNN
-F 2 "" H 8100 5125 50  0001 C CNN
-F 3 "" H 8100 5125 50  0001 C CNN
-	1    8100 5125
+L power:GNDS #PWR013
+U 1 1 5F3ABE1D
+P 8100 3025
+F 0 "#PWR013" H 8100 2775 50  0001 C CNN
+F 1 "GNDS" H 8105 2852 50  0000 C CNN
+F 2 "" H 8100 3025 50  0001 C CNN
+F 3 "" H 8100 3025 50  0001 C CNN
+	1    8100 3025
 	-1   0    0    -1  
 $EndComp
-$Sheet
-S 3100 5800 1450 500 
-U 5F3902BC
-F0 "PowerSupply" 50
-F1 "PosNeg5V_PSU.sch" 50
-F2 "+9V_IN" I L 3100 6050 50 
-F3 "+5V" I R 4550 6075 50 
-$EndSheet
 Wire Wire Line
-	7150 2525 8500 2525
+	8100 2825 8100 3025
+Connection ~ 8100 2825
 Wire Wire Line
-	7150 3575 8500 3575
+	8500 2825 8100 2825
 Wire Wire Line
-	7150 4625 8500 4625
+	8100 2725 8100 2825
+Connection ~ 8100 2725
 Wire Wire Line
-	7150 1450 8500 1450
+	8500 2725 8100 2725
 Wire Wire Line
-	3825 1300 4775 1300
+	8100 2625 8100 2725
 Wire Wire Line
-	4775 2375 6350 2375
+	8500 2625 8100 2625
+$Comp
+L power:GNDS #PWR012
+U 1 1 5F3AA43F
+P 8100 1950
+F 0 "#PWR012" H 8100 1700 50  0001 C CNN
+F 1 "GNDS" H 8105 1777 50  0000 C CNN
+F 2 "" H 8100 1950 50  0001 C CNN
+F 3 "" H 8100 1950 50  0001 C CNN
+	1    8100 1950
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
-	4775 2375 4775 1300
-Connection ~ 4775 1300
+	8100 1750 8100 1950
+Connection ~ 8100 1750
 Wire Wire Line
-	4775 1300 6350 1300
+	8500 1750 8100 1750
 Wire Wire Line
-	4775 2375 4775 3425
-Connection ~ 4775 2375
+	8100 1650 8100 1750
+Connection ~ 8100 1650
 Wire Wire Line
-	4775 3425 6350 3425
+	8500 1650 8100 1650
 Wire Wire Line
-	4775 3425 4775 4475
-Connection ~ 4775 3425
+	8100 1550 8100 1650
 Wire Wire Line
-	4775 4475 6350 4475
-$Sheet
-S 6350 2225 800  450 
-U 5F512144
-F0 "GainAndPeakDetector2" 50
-F1 "InvGainAndPeakDetector.sch" 50
-F2 "SIGNAL_INPUT" I L 6350 2375 50 
-F3 "SIGNAL_OUTPUT" I R 7150 2525 50 
-$EndSheet
-$Sheet
-S 6350 3275 800  450 
-U 5F515E89
-F0 "GainAndPeakDetector3" 50
-F1 "InvGainAndPeakDetector.sch" 50
-F2 "SIGNAL_INPUT" I L 6350 3425 50 
-F3 "SIGNAL_OUTPUT" I R 7150 3575 50 
-$EndSheet
-$Sheet
-S 6350 4325 800  450 
-U 5F519B24
-F0 "GainAndPeakDetector4" 50
-F1 "InvGainAndPeakDetector.sch" 50
-F2 "SIGNAL_INPUT" I L 6350 4475 50 
-F3 "SIGNAL_OUTPUT" I R 7150 4625 50 
-$EndSheet
-$Sheet
-S 6350 1150 800  450 
-U 5F3F1F31
-F0 "GainAndPeakDetector1" 50
-F1 "InvGainAndPeakDetector.sch" 50
-F2 "SIGNAL_INPUT" I L 6350 1300 50 
-F3 "SIGNAL_OUTPUT" I R 7150 1450 50 
-$EndSheet
+	8500 1550 8100 1550
+$Comp
+L power:GNDS #PWR03
+U 1 1 5F3A9844
+P 2125 2075
+F 0 "#PWR03" H 2125 1825 50  0001 C CNN
+F 1 "GNDS" H 2130 1902 50  0000 C CNN
+F 2 "" H 2125 2075 50  0001 C CNN
+F 3 "" H 2125 2075 50  0001 C CNN
+	1    2125 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2125 1600 2125 2075
+Connection ~ 2125 1600
+Wire Wire Line
+	1725 1600 2125 1600
+Wire Wire Line
+	2125 1500 2125 1600
+Connection ~ 2125 1500
+Wire Wire Line
+	1725 1500 2125 1500
+Wire Wire Line
+	2125 1400 2125 1500
+Wire Wire Line
+	1725 1400 2125 1400
+$Comp
+L MonoJack2Switch:MonoJack2Switch J4
+U 1 1 5F36CF2A
+P 8950 4775
+F 0 "J4" H 8648 4826 50  0000 R CNN
+F 1 "MonoJack2Switch" H 8648 4735 50  0000 R CNN
+F 2 "NeutrikNRJ:NRJxHx" H 8950 4825 50  0001 C CNN
+F 3 "https://www.neutrik.com/en/product/nrj6hm-1-pre" H 8950 4825 50  0001 C CNN
+	1    8950 4775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MonoJack2Switch:MonoJack2Switch J3
+U 1 1 5F36BD50
+P 8950 3725
+F 0 "J3" H 8648 3776 50  0000 R CNN
+F 1 "MonoJack2Switch" H 8648 3685 50  0000 R CNN
+F 2 "NeutrikNRJ:NRJxHx" H 8950 3775 50  0001 C CNN
+F 3 "https://www.neutrik.com/en/product/nrj6hm-1-pre" H 8950 3775 50  0001 C CNN
+	1    8950 3725
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MonoJack2Switch:MonoJack2Switch J2
+U 1 1 5F369E69
+P 8950 2675
+F 0 "J2" H 8648 2726 50  0000 R CNN
+F 1 "MonoJack2Switch" H 8648 2635 50  0000 R CNN
+F 2 "NeutrikNRJ:NRJxHx" H 8950 2725 50  0001 C CNN
+F 3 "https://www.neutrik.com/en/product/nrj6hm-1-pre" H 8950 2725 50  0001 C CNN
+	1    8950 2675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MonoJack2Switch:MonoJack2Switch J1
+U 1 1 5F366B64
+P 8950 1600
+F 0 "J1" H 8648 1651 50  0000 R CNN
+F 1 "MonoJack2Switch" H 8648 1560 50  0000 R CNN
+F 2 "NeutrikNRJ:NRJxHx" H 8950 1650 50  0001 C CNN
+F 3 "https://www.neutrik.com/en/product/nrj6hm-1-pre" H 8950 1650 50  0001 C CNN
+	1    8950 1600
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3825 1300
+Wire Wire Line
+	3525 1300 3825 1300
+$Comp
+L Device:R R5
+U 1 1 5F3442DD
+P 3375 1300
+F 0 "R5" V 3168 1300 50  0000 C CNN
+F 1 "10K" V 3259 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3305 1300 50  0001 C CNN
+F 3 "~" H 3375 1300 50  0001 C CNN
+	1    3375 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2925 1300 3225 1300
+Wire Wire Line
+	3825 2075 3825 1875
+$Comp
+L power:GNDS #PWR09
+U 1 1 5F340271
+P 3825 2075
+F 0 "#PWR09" H 3825 1825 50  0001 C CNN
+F 1 "GNDS" H 3830 1902 50  0000 C CNN
+F 2 "" H 3825 2075 50  0001 C CNN
+F 3 "" H 3825 2075 50  0001 C CNN
+	1    3825 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 1575 3825 1300
+$Comp
+L Device:R R7
+U 1 1 5F34026A
+P 3825 1725
+F 0 "R7" H 3895 1771 50  0000 L CNN
+F 1 "2.2M" H 3895 1680 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3755 1725 50  0001 C CNN
+F 3 "~" H 3825 1725 50  0001 C CNN
+	1    3825 1725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2925 2075 2925 1875
+$Comp
+L power:GNDS #PWR05
+U 1 1 5F33F57E
+P 2925 2075
+F 0 "#PWR05" H 2925 1825 50  0001 C CNN
+F 1 "GNDS" H 2930 1902 50  0000 C CNN
+F 2 "" H 2925 2075 50  0001 C CNN
+F 3 "" H 2925 2075 50  0001 C CNN
+	1    2925 2075
+	1    0    0    -1  
+$EndComp
+Connection ~ 2925 1300
+Wire Wire Line
+	2925 1575 2925 1300
+$Comp
+L Device:R R6
+U 1 1 5F33DCDF
+P 2925 1725
+F 0 "R6" H 2995 1771 50  0000 L CNN
+F 1 "2.2M" H 2995 1680 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2855 1725 50  0001 C CNN
+F 3 "~" H 2925 1725 50  0001 C CNN
+	1    2925 1725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1725 1300 2925 1300
+$Comp
+L MonoJack2Switch:MonoJack2Switch J5
+U 1 1 5F3395F3
+P 1275 1450
+F 0 "J5" H 1370 1825 50  0000 C CNN
+F 1 "MonoJack2Switch" H 1370 1734 50  0000 C CNN
+F 2 "NeutrikNRJ:NRJxHx" H 1275 1500 50  0001 C CNN
+F 3 "https://www.neutrik.com/en/product/nrj6hm-1-pre" H 1275 1500 50  0001 C CNN
+	1    1275 1450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
