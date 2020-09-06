@@ -8,12 +8,12 @@
 
 __System Overview__
 
-![](ActiveSplitterPedal/SOIC14/docs/systemdesign/SplitterBlockDiagram.svg)
+![](ActiveSplitterPedal/RevB/SOIC14/docs/systemdesign/SplitterBlockDiagram.svg)
 
 __PCB 3D Render (top view)__
 
-![](ActiveSplitterPedal/SOIC14/docs/pcb_3d_render/top_view.png)
+![](ActiveSplitterPedal/RevB/SOIC14/docs/pcb_3d_render/top_view.png)
 
 __PCB 3D Render (bottom view)__
 
-![](ActiveSplitterPedal/SOIC14/docs/pcb_3d_render/bottom_view.png)
+![](ActiveSplitterPedal/RevB/SOIC14/docs/pcb_3d_render/bottom_view.png)
