@@ -1,10 +1,11 @@
-## Active Splitter Guitar Pedal
+## 'Slicer' guitar pedal
 
-- 1-to-4 signal splitter
-- Analog design for
-- per channel active gain/attentuation control
-- per channel LED indicates when a signal is present.
+- Slices a single input signal to four identical output signals
+- Buffered input to avoid loading down instrument level signals
+- Gain/attentuation stage per output channel
+- LED peak detector per channel.
 - Fits in a Hammond 1590BB enclosure
+- Fully analog design
 
 ### System Overview
 
