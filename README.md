@@ -1,11 +1,11 @@
-## 'Slicer' guitar pedal
+## 'Slicer' Guitar Pedal
 
-- Slices a single input signal to four identical output signals
-- Buffered input to avoid loading down instrument level signals
-- Gain/attentuation stage per output channel
-- LED peak detector per channel.
-- Fits in a Hammond 1590BB enclosure
-- Fully analog design
+- Slices a single input signal to four identical output signals.
+- Buffered input to avoid loading down instrument level signals.
+- Gain/attentuation stage per output channel.
+- LED peak detector per output channel.
+- Fits in a Hammond 1590BB enclosure (120mm x 95mm).
+- Fully analog design.
 
 ### System Overview
 
