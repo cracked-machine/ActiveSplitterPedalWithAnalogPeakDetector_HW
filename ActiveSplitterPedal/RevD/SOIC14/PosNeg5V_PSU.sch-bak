@@ -316,10 +316,12 @@ L Regulator_Linear:MCP1700-5002E_SOT23 U1
 U 1 1 5F5BC121
 P 3600 2450
 F 0 "U1" H 3600 2692 50  0000 C CNN
-F 1 "MCP1700-5002E_SOT23" H 3600 2601 50  0000 C CNN
+F 1 "AP7370-50SA-7" H 3600 2601 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3600 2675 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 3600 2450 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP7370.pdf" H 3600 2450 50  0001 C CNN
 	1    3600 2450
 	1    0    0    -1  
 $EndComp
+Text Notes 2025 1775 0    50   ~ 0
+Note. During isolated testing of this PSU block, the quiescent current draw should be no higher than 15mA. Higher current draw indicates a faulty component.
 $EndSCHEMATC
