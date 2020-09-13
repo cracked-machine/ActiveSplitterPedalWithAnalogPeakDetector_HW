@@ -234,8 +234,6 @@ Wire Wire Line
 	8900 2250 8900 2200
 Connection ~ 8900 2200
 Wire Wire Line
-	8900 2200 9400 2200
-Wire Wire Line
 	8900 2950 8900 3050
 Connection ~ 8900 3050
 Wire Wire Line
@@ -324,4 +322,51 @@ F 3 "https://www.diodes.com/assets/Datasheets/AP7370.pdf" H 3600 2450 50  0001 C
 $EndComp
 Text Notes 2025 1775 0    50   ~ 0
 Note. During isolated testing of this PSU block, the quiescent current draw should be no higher than 15mA. Higher current draw suggests a faulty component.
+Wire Wire Line
+	8900 2200 9400 2200
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5F5F191B
+P 8050 5775
+F 0 "TP1" H 8108 5893 50  0000 L CNN
+F 1 "TestPoint" H 8108 5802 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8250 5775 50  0001 C CNN
+F 3 "~" H 8250 5775 50  0001 C CNN
+	1    8050 5775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 5775 8050 5900
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5F5F21CE
+P 8675 5775
+F 0 "TP2" H 8733 5893 50  0000 L CNN
+F 1 "TestPoint" H 8733 5802 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8875 5775 50  0001 C CNN
+F 3 "~" H 8875 5775 50  0001 C CNN
+	1    8675 5775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 5775 8675 5900
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5F5F2A34
+P 9300 5775
+F 0 "TP3" H 9358 5893 50  0000 L CNN
+F 1 "TestPoint" H 9358 5802 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9500 5775 50  0001 C CNN
+F 3 "~" H 9500 5775 50  0001 C CNN
+	1    9300 5775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 5775 9300 5900
+Text HLabel 9300 5900 3    50   Input ~ 0
+3VNEG
+Text HLabel 8675 5900 3    50   Input ~ 0
+COM
+Text HLabel 8050 5900 3    50   Input ~ 0
+3VPOS
 $EndSCHEMATC
