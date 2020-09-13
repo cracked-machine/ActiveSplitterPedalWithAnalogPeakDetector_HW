@@ -323,5 +323,5 @@ F 3 "https://www.diodes.com/assets/Datasheets/AP7370.pdf" H 3600 2450 50  0001 C
 	1    0    0    -1  
 $EndComp
 Text Notes 2025 1775 0    50   ~ 0
-Note. During isolated testing of this PSU block, the quiescent current draw should be no higher than 15mA. Higher current draw indicates a faulty component.
+Note. During isolated testing of this PSU block, the quiescent current draw should be no higher than 15mA. Higher current draw suggests a faulty component.
 $EndSCHEMATC
