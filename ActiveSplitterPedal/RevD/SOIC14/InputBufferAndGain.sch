@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -76,7 +76,7 @@ AR Path="/5F6AEF24/5F59293F" Ref="RV4"  Part="1"
 F 0 "RV4" V 7600 1975 50  0000 C CNN
 F 1 "1K" V 7500 1975 50  0000 C CNN
 F 2 "Bourn_PTA_Slider:Slider_PTA4543_60MM" H 7350 2175 50  0001 C CNN
-F 3 "~" H 7350 2175 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/54/pta-778345.pdf" H 7350 2175 50  0001 C CNN
 F 4 "PTA4543-2010CIB102" V 7250 2175 50  0000 C CNN "Part No."
 	1    7350 2175
 	0    1    -1   0   
