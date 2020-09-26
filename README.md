@@ -1,4 +1,4 @@
-## 'Slicer' Guitar Pedal
+## Active 4-way splitter pedal with analog peak detector
 
 - Slices a single input signal to four identical output signals.
 - Buffered input to avoid loading down instrument level signals.
