@@ -14,7 +14,7 @@
 
 ##### Top Level
 
-![](ActiveSplitterPedalWithAnalogPeakDetector/RevD/SOIC14/docs/schema/svg/ActiveSplitterPedalWithAnalogPeakDetector_SOIC14.svg)
+![](ActiveSplitterPedalWithAnalogPeakDetector/RevD/SOIC14/docs/schema/svg/ActiveSplitterPedalWithAnalogPeakDetector.svg)
 
 
 ##### Power Supply block
