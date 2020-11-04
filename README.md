@@ -1,5 +1,9 @@
 ## Active 4-way splitter pedal with analog peak detector
 
+
+Required Kicad Hardware library: https://github.com/cracked-machine/KicadLibrary
+
+
 - Analog 1->4 splitter circuit with buffered input and output gain controls.
 - Analog LED peak detector per output channel.
 - Fits in a Hammond 1590BB enclosure (120mm x 95mm).
